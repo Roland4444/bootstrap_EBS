@@ -17,5 +17,6 @@ cd ../
 git clone https://github.com/Roland4444/gui_ebs_client
 cd gui_ebs_client/
 mvn clean install package
+cd ../
 
 
