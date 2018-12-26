@@ -1,2 +1,2 @@
 cd mebs
-java --module-path build -m se.roland.ebs/service.Service_JAKtor
+java -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC --module-path build -m se.roland.ebs/service.Service_JAKtor
