@@ -1,3 +1,5 @@
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt update
 #sudo apt install git
 #sudo apt install openjdk-11-jdk
 #wget 
