@@ -11,11 +11,11 @@ chmod 777 8.sh 11.sh
 #cd ../
 sudo apt install maven
 git clone https://github.com/Roland4444/smevmessage
-~/8.sh
+./8.sh
 cd smevmessage
 mvn clean install package
 cd ../
-~/11.sh
+./11.sh
 git clone https://github.com/Roland4444/JAKtor
 cd JAKtor
 mvn clean install package
