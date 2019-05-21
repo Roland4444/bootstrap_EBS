@@ -1,0 +1,10 @@
+[Unit]
+Description=EBS service
+
+[Service]
+WorkingDirectory=/home/roland/Documents/bootstrap_ebs/
+ExecStart=/home/roland/Documents/bootstrap_ebs/service
+
+[Install]
+WantedBy=multi-user.target
+
